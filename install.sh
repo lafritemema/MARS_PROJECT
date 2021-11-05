@@ -8,7 +8,7 @@ echo " -- DOWNLOAD SOURCES FILES -- "
 git clone https://github.com/lafritemema/MARS_build_processor && \
 cd MARS_build_processor &&\
 echo " -- INSTALLATION DEPENDENCES -- "
-pip install -r requirement.txt && \
+sudo pip install -r requirement.txt && \
 echo " -- CREATE RESSOURCE DATABASE -- "
 mongoimport --db=mars --collection=carrier --drop ressources_c35_actions.json
 cd ..
