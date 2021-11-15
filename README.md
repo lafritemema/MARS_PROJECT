@@ -22,7 +22,7 @@ Script to download the source code for all the micro-services composing the appl
 
 ### update.sh
 
-Script to update the source code of micro-services composing the application and update the dependences for all of them.
+Script to update the source code of micro-services composing the application and update the dependences for all of them.  
 If one part of the application is missing, the script reinstall all the application
 
 ### run.sh
@@ -78,6 +78,6 @@ This command launch one terminal by micro-services.
 
 If you need to run only a specific micro-service, use the following commands :
 * `./run_build_processor.sh` to run build processor service
-* `run_enip_proxy.sh` to run enip-proxy service
-* `run_sequencer.sh` to run sequencer service
-* `run_hmi.sh` to run services for human machine interface
+* `./run_enip_proxy.sh` to run enip-proxy service
+* `./run_sequencer.sh` to run sequencer service
+* `./run_hmi.sh` to run services for human machine interface
