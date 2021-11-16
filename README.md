@@ -10,9 +10,9 @@ An Ubuntu distribution is prefered.
 
 The micro-services composing the MARS application need several third services application to run : 
 * MongoDB : the database software, used to store data.
-* NodeJS: the Javascript runtime environment, to execute micro-services writed in Javascript (sequencer, communication proxy, HMI ...)
-* Python 3 : the Python runtime environment, to execute micro-services writed in python (build processor ...)
-* RabbitMQ : the message broker software, used by the micor-service to communicate with each other
+* NodeJS: the Javascript runtime environment, to execute microservices written in Javascript (sequencer, communication proxy, HMI ...)
+* Python 3 : the Python runtime environment, to execute microservices written in python (build processor ...)
+* RabbitMQ : the message broker software, used by the microservices to communicate with each other
 
 The environment folder contains the installation script for these applications.
 
@@ -28,7 +28,7 @@ If one part of the application is missing, the script reinstall all the applicat
 ### run.sh
 
 Script to run all the micro-services (sequencer, enip-proxy and build-processor).
-The script launch a new terminal for each micro-services.
+The script launches a new terminal for each micro-services.
 
 ### run_build_processor.sh
 
@@ -57,7 +57,7 @@ For the first installation, you have to clone the MARS_PROJECT repository locall
 * run the command `chmod +x install.sh run.sh run_build_processor.sh run_enip_proxy.sh run_hmi.sh run_sequencer.sh update.sh` to make the scripts executable.
 
 After scripts downloading, you can launch the installation script to install the MARS micro-services, use the command : `./install.sh`  
-This command create a folder for each micro-service, download the source code and install the dependences.
+This command create a folder for each micro-service, download the source code and install the dependencies.
 
 ### UPDATE THE APPLICATION
 
@@ -66,8 +66,8 @@ Before to update the microservices, it's preferable to update the installation s
 * run the git command `git pull origin master` to update the scripts
 * run the command `chmod +x install.sh run.sh run_build_processor.sh run_enip_proxy.sh run_hmi.sh run_sequencer.sh update.sh` to make the scripts executable
 
-After scripts updating, you can launch the update script to update the MARS micro-services, use the command : `./update.sh`  
-This command download the new source code and install the dependences for each micro-services.
+After scripts updating, you can launch the update script to update the MARS microservices, use the command : `./update.sh`  
+This command download the new source code and install the dependencies for each microservices.
 
 ## RUN THE APPLICATION
 
