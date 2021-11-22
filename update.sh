@@ -24,7 +24,7 @@ if [ -d MARS_build_processor ] && \
     echo " -- UPDATE SOURCE FILES -- "
     git pull origin master && \
     echo " -- UPDATE DEPENDENCES -- "
-    sudo pip install -r requirement.txt && \
+    pip install --user -r requirement.txt && \
     echo " -- UPDATE RESSOURCE DATABASE -- "
     mongoimport --db=mars --collection=carrier --drop resSOURCE_c35_actions.json
     cd ..
