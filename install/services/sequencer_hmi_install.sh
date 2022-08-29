@@ -11,7 +11,6 @@ npm install && \
 cd  ../frontend_app && \
 echo " -- INSTALLATION DEPENDENCES FOR BACKEND -- "
 npm install && \
-cd .. && \
 echo " -- BUILD APPLICATION -- "
 npm run build && \
 cd ../..
