@@ -4,7 +4,7 @@ echo "----------------------------------"
 echo " -- INSTALL ENIP PROXY SERVICE -- "
 echo "----------------------------------"
 echo " -- DOWNLOAD SOURCE FILES -- "
-git clone https://github.com/lafritemema/MARS_enip_proxy && \
+git clone --recursive https://github.com/lafritemema/MARS_enip_proxy && \
 
 cd MARS_enip_proxy && \
 
